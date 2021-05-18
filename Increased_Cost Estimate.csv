@@ -1,0 +1,17 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Web servers,Amazon EC2,0,5615.39,67384.68,USD,"Operating system (Linux), Quantity (10), Pricing strategy (EC2 Instance Savings Plans 1 Year No Upfront), Storage amount (5000 GB), Instance type (t4g.xlarge)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,2354.88,28258.56,USD,"Operating system (Linux), Quantity (20), Pricing strategy (On-Demand Instances), Storage amount (500 GB), Instance type (t2.large)"
+My Estimate,US East (N. Virginia),Database Server,Amazon RDS for PostgreSQL,0,6030.8,72369.6,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (10000 GB per month), Nodes (2), Instance Type (db.m1.xlarge), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (0 GB)"
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,4532.85,54394.2,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),S3 with cloudfront,S3 Standard,0,117.76,1413.12,USD,S3 Standard storage (5 TB per month)
+My Estimate,US East (N. Virginia),S3 with cloudfront,Data Transfer,0,0,0,USD,"DT Inbound: Internet (0 TB per month), DT Outbound: Amazon CloudFront (5 TB per month)"
+My Estimate,US East (N. Virginia),ALB and NLB,Application Load Balancer,0,600.43,7205.16,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),ALB and NLB,Network Load Balancer,0,454.43,5453.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (100 GB per hour)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
+,,,,,,,,
+Changes,,,,,,,,
+"-Increased the number of present ec2 instances for web servers with memory for cach preservence which will accelerate the application loading , also increased the computing size of the ec2 application servers and the amount of accepted connections to Nat gateway",,,,,,,,

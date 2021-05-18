@@ -1,0 +1,9 @@
+Exercise_1/.terraform.lock.hcl
+Exercise_1/terraform.tfstate
+Exercise_1/.terraform.tfstate.lock.info
+Exercise_1/terraform.tfstate.backup
+Exercise_1/.terraform/providers/registry.terraform.io/hashicorp/aws/3.40.0/windows_amd64/terraform-provider-aws_v3.40.0_x5.exe
+Exercise_2/.terraform.lock.hcl
+Exercise_2/terraform.tfstate
+Exercise_2/terraform.tfstate.backup
+Exercise_2/.terraform/providers/registry.terraform.io/hashicorp/aws/3.40.0/windows_amd64/terraform-provider-aws_v3.40.0_x5.exe
